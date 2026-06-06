@@ -9,7 +9,7 @@ function HomeContent() {
     { titulo: "Eventos", texto: "Consulta actividades académicas, sociales y deportivas.", href: "eventos.html" },
     { titulo: "Lugares", texto: "Encuentra espacios útiles dentro o cerca del campus.", href: "lugares.html" },
     { titulo: "Tips", texto: "Mejora productividad, memoria y bienestar.", href: "tips.html" },
-    { titulo: "Contacto", texto: "Envía tus consultas con validación y servidor de prueba.", href: "contactanos.html" }
+    { titulo: "Contacto", texto: "Envía tus consultas.", href: "contactanos.html" }
   ];
 
   function guardarUsuario(evento) {
@@ -19,7 +19,7 @@ function HomeContent() {
       return;
     }
     setUsuario(nombre);
-    setMensaje("Usuario guardado correctamente en localStorage.");
+    setMensaje("Usuario guardado correctamente.");
   }
 
   return (
@@ -31,7 +31,7 @@ function HomeContent() {
               Tu vida universitaria organizada en un solo sitio.
             </h2>
             <p className="mt-5 text-lg text-gray-700">
-              UniGo usa páginas HTML separadas, componentes de React, datos JSON, Tailwind, CSS propio y almacenamiento local para tareas.
+              UniGo! Una excelente página para ti.
             </p>
 
             <form onSubmit={guardarUsuario} className="mt-8 bg-purple-50 border border-purple-200 rounded-3xl p-5" noValidate>
@@ -56,11 +56,11 @@ function HomeContent() {
           <div className="bg-gray-950 text-white rounded-[32px] shadow-2xl p-6 md:p-8 slide-up">
             <h3 className="text-2xl font-black">Funcionalidades principales</h3>
             <ul className="mt-5 space-y-3 text-gray-100">
-              <li>• Tareas persistentes con localStorage.</li>
-              <li>• Datos dinámicos cargados desde JSON.</li>
-              <li>• Validación de formularios sin alertas invasivas.</li>
-              <li>• Diseño responsive para celular y escritorio.</li>
-              <li>• Accesibilidad con aria-labels y navegación clara.</li>
+              <li>• Guarda todos tus trabajos subidos.</li>
+              <li>• Cualquier dato se almacena.</li>
+              <li>• Tiene formularios.</li>
+              <li>• Diseño disponible tanto para celular y laptop.</li>
+              <li>• Accesible y una navegación tranquila.</li>
             </ul>
           </div>
         </div>
