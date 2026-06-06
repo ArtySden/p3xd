@@ -75,9 +75,6 @@ function Footer() {
           <p className="mt-2 text-sm">Organiza tareas, eventos, comida, lugares útiles y consejos universitarios.</p>
         </div>
         <div>
-          <h3 className="font-bold text-white">Proyecto</h3>
-          <p className="mt-2 text-sm">Hecho con HTML, CSS, JavaScript, React CDN, Babel, Tailwind CDN y JSON.</p>
-        </div>
         <div>
           <h3 className="font-bold text-white">Acceso rápido</h3>
           <a href="contactanos.html" className="inline-block mt-2 text-amber-200 hover:underline focus-ring rounded">Enviar consulta</a>
