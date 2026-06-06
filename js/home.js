@@ -30,6 +30,10 @@ function HomeContent() {
             <h2 className="mt-3 text-4xl md:text-6xl font-black text-gray-950 leading-tight">
               Tu vida universitaria organizada en un solo sitio.
             </h2>
+            <p className="mt-5 text-lg text-gray-700">
+              UniGo usa páginas HTML separadas, componentes de React, datos JSON, Tailwind, CSS propio y almacenamiento local para tareas.
+            </p>
+
             <form onSubmit={guardarUsuario} className="mt-8 bg-purple-50 border border-purple-200 rounded-3xl p-5" noValidate>
               <label htmlFor="usuario" className="block font-bold text-gray-900">Nombre de usuario</label>
               <div className="mt-3 flex gap-3 xs-stack">
