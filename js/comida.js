@@ -62,7 +62,7 @@ function ComidaContent() {
   return (
     <section className="max-w-7xl mx-auto px-4 py-10 fade-in">
         <div className="bg-white rounded-[32px] shadow-2xl p-6 md:p-8">
-          <p className="font-black text-purple-700">Buscador con JSON</p>
+          <p className="font-black text-purple-700">Buscador</p>
           <h2 className="text-4xl font-black text-gray-950">Comida cerca del campus</h2>
           <p className="mt-2 text-gray-700">Busca por nombre, categoría, oferta o dirección. Cada opción tiene detalle y mapa.</p>
           <label htmlFor="buscarComida" className="sr-only">Buscar comida</label>
