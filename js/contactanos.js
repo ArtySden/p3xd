@@ -59,9 +59,9 @@ function ContactanosContent() {
     <section className="max-w-7xl mx-auto px-4 py-10 fade-in">
         <div className="grid gap-8 lg:grid-cols-[1fr_0.8fr]">
           <form onSubmit={enviar} className="bg-white rounded-[32px] shadow-2xl p-6 md:p-8" noValidate>
-            <p className="font-black text-purple-700">Formulario con validación robusta</p>
+            <p className="font-black text-purple-700">Formulario</p>
             <h2 className="text-4xl font-black text-gray-950">Contáctanos</h2>
-            <p className="mt-2 text-gray-700">Los datos se validan y se envían con método POST a un servidor de prueba.</p>
+            <p className="mt-2 text-gray-700">Los datos son validados.</p>
 
             <div className="mt-6 grid gap-5">
               <div>
