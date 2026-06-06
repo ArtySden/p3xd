@@ -104,7 +104,7 @@ function TareasContent() {
           <div>
             <p className="font-black text-purple-700">Gestión académica</p>
             <h2 className="text-4xl font-black text-gray-950">Tareas universitarias</h2>
-            <p className="mt-2 text-gray-700">Tus tareas se guardan en localStorage, así no se pierden al recargar.</p>
+            <p className="mt-2 text-gray-700">Tus tareas se guardan.</p>
           </div>
           <div className="grid grid-cols-2 gap-3 text-center">
             <div className="bg-white rounded-2xl px-5 py-4 shadow"><p className="text-2xl font-black text-amber-700">{pendientes}</p><p className="text-sm font-bold">Pendientes</p></div>
