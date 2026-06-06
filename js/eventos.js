@@ -29,7 +29,7 @@ function EventosContent() {
         <div className="bg-white rounded-[32px] shadow-2xl p-6 md:p-8">
           <p className="font-black text-purple-700">Actividades universitarias</p>
           <h2 className="text-4xl font-black text-gray-950">Eventos</h2>
-          <p className="mt-2 text-gray-700">Listado cargado desde JSON con imágenes reales ubicadas en la carpeta images.</p>
+          <p className="mt-2 text-gray-700">Listado.</p>
         </div>
         <div className="mt-8 grid gap-5 md:grid-cols-2 lg:grid-cols-3">
           {data.eventos.map((evento) => <EventoCard key={evento.id} evento={evento} />)}
