@@ -44,7 +44,7 @@ function AppProvider({ children }) {
     fetch(DATA_URL)
       .then((respuesta) => {
         if (!respuesta.ok) {
-          throw new Error("No se pudo cargar el archivo JSON del proyecto.");
+          throw new Error("No se pudo cargar el archivo.");
         }
         return respuesta.json();
       })
